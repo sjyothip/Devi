@@ -1,4 +1,4 @@
-import React , { useState } from 'react';
+import React from 'react';
 import {
   ScrollView,
   Text,
@@ -6,14 +6,12 @@ import {
   StyleSheet,
   Button,
 } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 
 
 
 const Tab = createMaterialTopTabNavigator();
 const Login =(props)=>{
-    // console.log(props)
     return(
       <View>
         <Text style={{fontSize:40}}> This is LOGIN Screen</Text>

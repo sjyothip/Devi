@@ -21,18 +21,10 @@ const Home =()=>{
 
     return(
 
-      // <NavigationContainer>
     <Tab.Navigator>
-          <Tab.Screen name='Doctors' component={Doctor} />
-          {/* <Tab.Screen name='Login' component={Login} /> */}
-          <Tab.Screen name='Medicines' component={Medicine} />
-        
-          {/* <View style={{flex:1, justifyContent:'center', alignItems:'center'}}>
-            <Text style={{fontSize:30}}>Login Screen</Text>
-          </View> */}
-        </Tab.Navigator>
-    // </NavigationContainer>
-
+          <Tab.Screen name='Doctor' component={Doctor} />
+          <Tab.Screen name='Medicine' component={Medicine} />
+    </Tab.Navigator>
 
 
 
